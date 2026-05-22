@@ -1,0 +1,39 @@
+C:\Users\242823\.jdks\ms-21.0.10\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\lib\idea_rt.jar=53444:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\242823\IdeaProjects\ModernTechnologiesPractice6\part1\p1_1\target\classes;C:\Users\242823\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar com.movies.MovieJDBC
+✅ Подключение к базе данных установлено!
+
+✅ Таблица movies создана
+
+Добавлен: Матрица
+Добавлен: Начало
+Добавлен: Крестный отец
+Добавлен: Темный рыцарь
+=== Все фильмы ===
+ID: 1, Название: Матрица, Жанр: sci-fi, Год: 1999
+ID: 2, Название: Начало, Жанр: sci-fi, Год: 2010
+ID: 3, Название: Крестный отец, Жанр: crime, Год: 1972
+ID: 4, Название: Темный рыцарь, Жанр: action, Год: 2008
+
+=== Поиск по названию 'Матрица' ===
+ID: 1, Название: Матрица, Жанр: sci-fi, Год: 1999
+
+=== Поиск по году (1999) ===
+ID: 1, Название: Матрица, Жанр: sci-fi, Год: 1999
+
+=== Поиск по жанру (sci-fi) ===
+ID: 1, Название: Матрица, Жанр: sci-fi, Год: 1999
+ID: 2, Название: Начало, Жанр: sci-fi, Год: 2010
+
+=== Обновление фильма ===
+Обновлено записей: 1
+ID: 1, Название: Матрица (Обновлено), Жанр: sci-fi, Год: 1999
+ID: 2, Название: Начало, Жанр: sci-fi, Год: 2010
+ID: 3, Название: Крестный отец, Жанр: crime, Год: 1972
+ID: 4, Название: Темный рыцарь, Жанр: action, Год: 2008
+
+=== Удаление фильма ===
+Удалено записей: 1
+ID: 1, Название: Матрица (Обновлено), Жанр: sci-fi, Год: 1999
+ID: 3, Название: Крестный отец, Жанр: crime, Год: 1972
+ID: 4, Название: Темный рыцарь, Жанр: action, Год: 2008
+
+Process finished with exit code 0
